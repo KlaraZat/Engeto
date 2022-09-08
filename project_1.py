@@ -2,7 +2,7 @@
 projekt_1.py: první projekt do Engeto Online Python Akademie
 author: Klara Zatloukalova
 email: zatloukalova.klara@gmail.com
-discord:
+discord: Klára Z.#3895
 """
 from typing import List
 
