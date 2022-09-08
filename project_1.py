@@ -4,8 +4,6 @@ author: Klara Zatloukalova
 email: zatloukalova.klara@gmail.com
 discord: Klára Z.#3895
 """
-from typing import List
-
 TEXTS = ['''
 Situated about 10 miles west of Kemmerer,
 Fossil Butte is a ruggedly impressive
@@ -84,13 +82,13 @@ if prihlaseny == 1:
         text_do_pole = text.split()
 
         for x in text_do_pole:
-            if (x.istitle()) == True:
+            if (x.istitle()):
                 pocet_velkych += 1
-            if (x.isupper()) == True:
+            if (x.isupper()):
                 pocet_vsechna_velka += 1
-            if (x.islower()) == True:
+            if (x.islower()):
                 pocet_vsechna_mala += 1
-            if (x.isnumeric()) == True:
+            if (x.isnumeric()):
                 pocet_cisel += 1
                 soucet_cisel += int(x)
             print('There are ', pocet_velkych, ' titlecase words.')
